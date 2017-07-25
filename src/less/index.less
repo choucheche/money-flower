@@ -1,0 +1,85 @@
+@import 'configuration.less'; // 转换大小
+@import 'property.less'; // 简写 class 样式
+@import 'variable.less'; // 设置变量
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-size-adjust: 100%;
+}
+
+html * {
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    /*禁止点击链接后，IOS出现背景色*/
+    text-size-adjust: 100%;
+    border:none;
+}
+
+body,
+html {
+    font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Roboto,STHeiTi,Arial,sans-serif;
+    margin:0;
+    height:100%;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    background:@defaultColor;
+    width:100%;
+    .f-s(16);
+    color:@textColor3;
+    overflow-x:hidden;
+}
+
+input,
+textarea {
+    -webkit-appearance: none;
+    /*消除输入框和按钮的原生外观*/
+}
+
+/*修改 input 的 placeholder 颜色*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: @textColor4;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+color: @textColor4;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+color: @textColor4;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: @textColor4;
+}
+
+a {
+    text-decoration: none;
+}
+a:focus{
+  outline:none;
+}
+a:focus, a:hover{
+  text-decoration: none;
+}
+
+dl{
+  margin-bottom:0;
+}
+dt{
+  font-weight: normal;
+}
+ul,ol,li{
+  list-style: none;
+}
+@import 'home.less'; //首页
+@import 'player.less'; //选手详情页
+@import 'rankingList.less'; //排行榜
+@import 'apply.less'; //报名
+@import 'sendFlower.less'; //送花
+@import 'activity.less'; //活动介绍
+@import 'prize.less'; //活动奖品

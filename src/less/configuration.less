@@ -1,0 +1,116 @@
+.f-s(@px){
+//自动将传来的px值转换成rem值，150按页面为 1500设计图计算
+  font-size:unit(@px/150,rem);
+}
+.w(@px){
+  width:unit(@px/150,rem);
+}
+.w-important(@px){
+  width:unit(@px/150,rem) !important;
+}
+.h(@px){
+  height:unit(@px/150,rem);
+}
+.max-h(@px){
+  max-height:unit(@px/150,rem);
+}
+.l-h(@px){
+  line-height:unit(@px/150,rem);
+}
+.m(@px1,@px2,@px3,@px4){
+  margin:unit(@px1/150,rem) unit(@px2/150,rem) unit(@px3/150,rem) unit(@px4/150,rem);
+}
+
+.mt(@px){
+  margin-top:unit(@px/150,rem);
+}
+.ml(@px){
+  margin-left:unit(@px/150,rem);
+}
+.mr(@px){
+  margin-right:unit(@px/150,rem);
+}
+.mb(@px){
+  margin-bottom:unit(@px/150,rem);
+}
+.pt(@px){
+  padding-top:unit(@px/150,rem);
+}
+.pl(@px){
+  padding-left:unit(@px/150,rem);
+}
+.pr(@px){
+  padding-right:unit(@px/150,rem);
+}
+.pb(@px){
+  padding-bottom:unit(@px/150,rem);
+}
+.p(@px1,@px2,@px3,@px4){
+  padding:unit(@px1/150,rem) unit(@px2/150,rem) unit(@px3/150,rem) unit(@px4/150,rem);
+}
+.t(@px){
+  top:unit(@px/150,rem);
+}
+.l(@px){
+  left:unit(@px/150,rem);
+}
+.b(@px){
+  bottom:unit(@px/150,rem);
+}
+.r(@px){
+  right:unit(@px/150,rem);
+}
+.bg-p(@px1,@px2){
+  background-position: unit(@px1/150,rem) unit(@px2/150,rem);
+}
+.bg-x-c(@px1){
+  background-position: center unit(@px1/150,rem);
+}
+.bg-y-c(@px1){
+  background-position: unit(@px1/150,rem) center;
+}
+.bg-s(@px1,@px2){
+  background-size: unit(@px1/150,rem) unit(@px2/150,rem);
+}
+.bg-s-x(@px1){
+  background-size: unit(@px1/150,rem) auto;
+}
+.bg-s-y(@px1){
+  background-size: auto unit(@px1/150,rem);
+}
+.border(@px1,@color){
+  border:unit(@px1/150,rem) @color solid;
+}
+.border-t(@px1,@color){
+  border-top:unit(@px1/150,rem) @color solid;
+}
+.border-b(@px1,@color){
+  border-bottom:unit(@px1/150,rem) @color solid;
+}
+.border-b-dotted(@px1,@color){
+  border-bottom:unit(@px1/150,rem) @color dotted;
+}
+.border-l(@px1,@color){
+  border-left:unit(@px1/150,rem) @color solid;
+}
+.border-r(@px1,@color){
+  border-right:unit(@px1/150,rem) @color solid;
+}
+.b-r(@px1){
+  border-radius: unit(@px1/150,rem);
+}
+.t-t(@px1,@px2){
+  transform: translate(unit(@px1/150,rem),unit(@px2/150,rem));
+}
+.box-shadow(@px1,@px2,@px3,@px4,@color){
+  box-shadow:unit(@px1/150,rem) unit(@px2/150,rem) unit(@px3/150,rem) unit(@px4/150,rem) @color;
+}
+.text-shadow(@px1,@px2,@px3,@color){
+  text-shadow:unit(@px1/150,rem) unit(@px2/150,rem) unit(@px3/150,rem) @color;
+}
+.column-width(@px1){
+  column-width:unit(@px1/150,rem);
+}
+.column-gap(@px1){
+  column-gap:unit(@px1/150,rem);
+}

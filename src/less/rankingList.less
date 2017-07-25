@@ -1,0 +1,355 @@
+.module1 {
+  @defaultColor: #fff;
+  @textColor1: #2c2c2c;
+  @textColor2: #333333;
+  @textColor3: #666;
+  @textColor4: #a3a2a2;
+  @greenColor1: #44b549;
+  @greenColor2: #80e284;
+  @greenColor3: #328535;
+  @grayColor1: #f6f6f6;
+  @grayColor2: #e7e7e7;
+  @grayColor3: #eee;
+  @grayColor4: #ccc;
+  @grayColor5: #e5e5e5;
+  @blackBgColor1: rgba(0,0,0,0.5);
+  @blackBgColor2: rgba(0,0,0,0.2);
+  @whiteBgColor1: rgba(255,255,255,0.75);
+  @blueBgColor1: #337fe5;
+  @blueBgColor2: #4798c2;
+  @pinkBgColor1: #ffe5e0;
+  @pinkBgColor2: #e76a78;
+  @redColor1: #e75033;
+
+  #rankingList {
+    .pb(125);
+
+    .tabNav {
+      width: 100%;
+      .mb(10);
+      background: @defaultColor;
+      .border-t(1,@grayColor4);
+
+      .box {
+        color: @textColor3;
+        .w(314);
+        .l-h(36);
+        .p(10,0,10,0);
+        .f-s(24);
+        .m(0,30,0,30);
+        .border-b(1,@defaultColor);
+
+        &:active {
+          opacity: 0.8;
+        }
+
+        span {
+          background: url('../img/dataIcon.png') no-repeat left center;
+          .pl(32);
+          .bg-s(30,30);
+        }
+
+        &.choose {
+          color: @greenColor1;
+          .border-b(1,@greenColor1);
+
+          span {
+            background: url('../img/dataIconA.png') no-repeat left center;
+            .bg-s(30,30);
+          }
+        }
+      }
+
+      .line {
+        .w(2);
+        .h(26);
+        .t(15);
+        background: @grayColor4;
+      }
+    }
+
+    .titleTextS {
+      width: 100%;
+      .p(8,0,8,0);
+      color: @textColor4;
+      .f-s(20);
+      .l-h(30);
+    }
+
+    .rankingList {
+      .list {
+        width: 100%;
+
+        .box {
+          width: 100%;
+          .m(20,0,20,0);
+          .p(20,20,20,20);
+          background: @defaultColor;
+          animation: listShowBox 0.5s;
+
+          .headImg {
+            .w(80);
+            .h(118);
+            .t(5);
+
+            .crown {
+              .w(48);
+              .h(38);
+              background: url('../img/crownIcon.png') no-repeat center center;
+              .bg-s(48,38);
+              margin: 0 auto;
+            }
+
+            .myImg {
+              .w(80);
+              .h(80);
+              border-radius: 50%;
+              z-index: 2;
+              .l(0);
+              .t(28);
+            }
+          }
+
+          dl {
+            .ml(20);
+            .f-s(30);
+            .w(570);
+            .pr(20);
+
+            dt {
+              color: @textColor3;
+              font-weight: bold;
+              .l-h(30);
+              .p(20,0,6,0);
+              .f-s(24);
+
+              span.mark {
+                background: @pinkBgColor1;
+                color: @redColor1;
+                .p(3,10,3,10);
+                position: relative;
+                .t(-3);
+                .mr(10);
+                .b-r(34);
+                .l-h(34);
+              }
+            }
+
+            dd {
+              color: @textColor3;
+              .l-h(32);
+              .f-s(18);
+            }
+          }
+
+          .no {
+            .r(34);
+            .t(80);
+            z-index: 2;
+            .l-h(32);
+            .f-s(12);
+            color: @grayColor4;
+
+            span {
+              color: @redColor1;
+              .f-s(32);
+              font-weight: bold;
+            }
+          }
+        }
+
+        .top {
+          .headImg {
+            .crown {
+              background: url('../img/crownIconTop.png') no-repeat center center;
+              .bg-s(48,38);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.module2 {
+  @defaultColor: #fff;
+  @textColor1: #2c2c2c;
+  @textColor2: #333333;
+  @textColor3: #666;
+  @textColor4: #a3a2a2;
+  @greenColor1: #ff4238;
+  @greenColor2: #fd3c41;
+  @greenColor3:#dc4735;
+  @grayColor1: #f6f6f6;
+  @grayColor2: #e7e7e7;
+  @grayColor3: #eee;
+  @grayColor4: #ccc;
+  @grayColor5: #e5e5e5;
+  @grayColor6: #c9c9c9;
+  @blackBgColor1: rgba(0,0,0,0.5);
+  @blackBgColor2: rgba(0,0,0,0.2);
+  @whiteBgColor1: rgba(255,255,255,0.85);
+  @blueBgColor1: #7800ff;
+  @blueBgColor2: #418DFF;
+  @blueBgColor3: rgba(91,169,255,0.7);
+  @pinkBgColor1: #ffe5e0;
+  @pinkBgColor2: #e76a78;
+  @redColor1: #e75033;
+  @redColor2: #FC573D;
+  @yellowColor1: #ffd823;
+  #rankingList {
+    .pb(125);
+
+    .tabNav {
+      width: 100%;
+      .mb(10);
+      background: @defaultColor;
+      .border-t(1,@grayColor4);
+
+      .box {
+        color: @textColor3;
+        .w(314);
+        .l-h(36);
+        .p(10,0,10,0);
+        .f-s(24);
+        .m(0,30,0,30);
+        .border-b(1,@defaultColor);
+
+        &:active {
+          opacity: 0.8;
+        }
+
+        span {
+          background: url('../img/dataIcon.png') no-repeat left center;
+          .pl(32);
+          .bg-s(30,30);
+        }
+
+        &.choose {
+          color: @greenColor1;
+          .border-b(1,@greenColor1);
+
+          span {
+            background: url('../img/dataIconB.png') no-repeat left center;
+            .bg-s(30,30);
+          }
+        }
+      }
+
+      .line {
+        .w(2);
+        .h(26);
+        .t(15);
+        background: @grayColor4;
+      }
+    }
+
+    .titleTextS {
+      width: 100%;
+      .p(8,0,8,0);
+      color: @textColor4;
+      .f-s(20);
+      .l-h(30);
+    }
+
+    .rankingList {
+      .list {
+        width: 100%;
+
+        .box {
+          .w(690);
+          .p(20,20,20,20);
+          background: @defaultColor;
+          animation: listShowBox 0.5s;
+          margin:0 auto;
+          .mt(20);
+          .mb(20);
+          .box-shadow(0,1,5,0,#ccc);
+          .b-r(15);
+          .headImg {
+            .w(80);
+            .h(118);
+            .t(5);
+
+            .crown {
+              .w(48);
+              .h(38);
+              background: url('../img/hg2.png') no-repeat center center;
+              .bg-s(48,38);
+              margin: 0 auto;
+            }
+
+            .myImg {
+              .w(80);
+              .h(80);
+              border-radius: 50%;
+              z-index: 2;
+              .l(0);
+              .t(34);
+              .border(0,@grayColor6);
+            }
+          }
+
+          dl {
+            .ml(20);
+            .f-s(30);
+            .w(510);
+            .pr(20);
+
+            dt {
+              color: @textColor3;
+              font-weight: bold;
+              .l-h(30);
+              .p(20,0,6,0);
+              .f-s(24);
+
+              span.mark {
+                background: @pinkBgColor1;
+                color: @redColor1;
+                .p(3,10,3,10);
+                position: relative;
+                .t(-3);
+                .mr(10);
+                .b-r(34);
+                .l-h(34);
+              }
+            }
+
+            dd {
+              color: @textColor3;
+              .l-h(32);
+              .f-s(18);
+            }
+          }
+
+          .no {
+            .r(34);
+            top:50%;
+            .mt(-16);
+            z-index: 2;
+            .l-h(32);
+            .f-s(12);
+            color: @grayColor4;
+
+            span {
+              color: @redColor2;
+              .f-s(32);
+            }
+          }
+        }
+
+        .top {
+          .headImg {
+            .crown {
+              background: url('../img/hg1.png') no-repeat center center;
+              .bg-s(48,38);
+            }
+            .myImg {
+              .border(0,@yellowColor1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

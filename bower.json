@@ -1,0 +1,20 @@
+{
+  "name": "my_app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "choucheche <snow100401176@126.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.32"
+  }
+}

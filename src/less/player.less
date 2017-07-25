@@ -1,0 +1,708 @@
+.module1 {
+  @defaultColor: #fff;
+  @textColor1: #2c2c2c;
+  @textColor2: #333333;
+  @textColor3: #666;
+  @textColor4: #a3a2a2;
+  @greenColor1: #44b549;
+  @greenColor2: #80e284;
+  @greenColor3: #328535;
+  @grayColor1: #f6f6f6;
+  @grayColor2: #e7e7e7;
+  @grayColor3: #eee;
+  @grayColor4: #ccc;
+  @grayColor5: #e5e5e5;
+  @blackBgColor1: rgba(0,0,0,0.5);
+  @blackBgColor2: rgba(0,0,0,0.2);
+  @whiteBgColor1: rgba(255,255,255,0.75);
+  @blueBgColor1: #337fe5;
+  @blueBgColor2: #4798c2;
+  @pinkBgColor1: #ffe5e0;
+  @pinkBgColor2: #e76a78;
+  @redColor1: #e75033;
+
+  #player {
+    width: 100%;
+    .p(20,20,140,20);
+
+    .tabNav {
+      width: 100%;
+      background: @defaultColor;
+
+      .box {
+        color: @textColor3;
+        .w(294);
+        .l-h(36);
+        .p(10,0,10,0);
+        .f-s(24);
+        .m(0,30,0,30);
+
+        &:active {
+          opacity: 0.8;
+        }
+
+        span {
+          //background:url('../img/dataIcon.png') no-repeat left center;
+          //.pl(32);
+          //.bg-s(30,30);
+        }
+      }
+
+      .line {
+        .w(2);
+        .h(26);
+        .t(15);
+        background: @grayColor4;
+      }
+    }
+
+    .dataTab {
+      width: 100%;
+      background: @grayColor1;
+      .m(5,0,5,0);
+
+      dl {
+        .w(176);
+        .p(12,0,12,0);
+        color: @textColor3;
+        .f-s(24);
+
+        dt {
+          .l-h(30);
+          .pb(5);
+        }
+
+        dd {
+          .l-h(26);
+          .f-s(22);
+        }
+      }
+
+      .line {
+        .w(2);
+        .h(52);
+        .t(14);
+        background: @grayColor4;
+      }
+    }
+
+    .tabShow {
+      width: 100%;
+      background: @defaultColor;
+
+      .box {
+        .p(20,0,20,0);
+        .l-h(26);
+        .f-s(22);
+        color: @textColor3;
+        width: 50%;
+        .border-b(2,@defaultColor);
+
+        &.choose {
+          color: @greenColor1;
+          .border-b(2,@greenColor1);
+        }
+      }
+    }
+
+    .showTabWrap {
+      width: 100%;
+      .mt(20);
+
+      .showBox {
+        width: 100%;
+
+        .img {
+          width: 100%;
+          .mb(20);
+          animation: listShowBox 0.5s;
+        }
+
+        .sendList {
+          width: 100%;
+
+          .box {
+            width: 100%;
+            .m(20,0,20,0);
+            .p(20,20,20,20);
+            background: @defaultColor;
+            animation: listShowBox 0.5s;
+
+            .sendImg {
+              .w(80);
+              .h(80);
+              border-radius: 50%;
+            }
+
+            dl {
+              .ml(20);
+              .f-s(30);
+              .w(570);
+
+              dt {
+                color: @textColor3;
+                .l-h(34);
+                .p(6,0,6,0);
+
+                span.mark {
+                  background: @pinkBgColor1;
+                  color: @redColor1;
+                  .p(3,10,3,10);
+                  position: relative;
+                  .t(-3);
+                  .mr(10);
+                  .b-r(34);
+                  .l-h(34);
+                }
+              }
+
+              dd {
+                color: @textColor4;
+                .l-h(34);
+              }
+            }
+          }
+        }
+      }
+
+      .personalData {
+        .box {
+          width: 100%;
+          .m(20,0,20,0);
+          .p(20,20,20,20);
+          background: @defaultColor;
+          animation: listShowBox 0.5s;
+
+          .myImg {
+            .w(80);
+            .h(80);
+            border-radius: 50%;
+          }
+
+          dl {
+            .ml(20);
+            .f-s(30);
+            .w(570);
+
+            dt {
+              color: @textColor3;
+              .l-h(34);
+              .p(6,0,6,0);
+
+              span.mark {
+                background: @pinkBgColor1;
+                color: @redColor1;
+                .p(3,10,3,10);
+                position: relative;
+                .t(-3);
+                .mr(10);
+                .b-r(34);
+                .l-h(34);
+              }
+            }
+
+            dd {
+              color: @textColor3;
+              .l-h(34);
+            }
+          }
+        }
+      }
+    }
+
+    #btnMore {
+      width: 100%;
+      .mt(10);
+      .mb(20);
+      .l-h(32);
+      .p(20,0,20,0);
+      .f-s(28);
+      color: @defaultColor;
+      background: @greenColor1;
+      .b-r(30);
+    }
+
+    .helpTicket {
+      width: 100%;
+      background-color: @blackBgColor1;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+      background-image: url('../img/helpTicket.png');
+      background-repeat: no-repeat;
+      background-position: right 10px;
+      background-size: 80% auto;
+    }
+  }
+
+  .footerPlayer {
+    width: 100%;
+    background: @defaultColor;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    .border-t(2,@grayColor5);
+
+    .box {
+      .p(65,0,10,0);
+      .w(247.5);
+      .f-s(26);
+      .l-h(28);
+      color: @textColor3;
+
+      &.home {
+        background: url('../img/homeIcon.png') no-repeat;
+        .bg-s(60,60);
+        .bg-x-c(6);
+      }
+
+      &.flower {
+        background: url('../img/flowerIcon.png') no-repeat;
+        .bg-s(50,50);
+        .bg-x-c(8);
+      }
+    }
+
+    .vote {
+      .w(255);
+      left: 50%;
+      .b(5);
+      .t-t(-127.5,0);
+      z-index: 2;
+      .h(124);
+
+      .btn {
+        .w(124);
+        .h(124);
+        background: @greenColor1;
+        border-radius: 50%;
+        margin: 0 auto;
+        .f-s(22);
+        .p(10,9,0,9);
+
+        dl {
+          .w(106);
+          .h(106);
+          border-radius: 50%;
+          background-color: @defaultColor;
+          .border(5,@greenColor2);
+
+          dt {
+            width: 100%;
+            .h(54);
+            background-image: url('../img/heartIcon.png');
+            background-repeat: no-repeat;
+            .bg-s(40,40);
+            .bg-x-c(32);
+            background-position: center center;
+            animation: scaleImg 0.6s infinite ease;
+          }
+
+          dd {
+            .l-h(30);
+            .f-s(24);
+          }
+        }
+      }
+    }
+  }
+  @keyframes scaleImg {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.module2 {
+  @defaultColor: #fff;
+  @textColor1: #2c2c2c;
+  @textColor2: #333333;
+  @textColor3: #666;
+  @textColor4: #a3a2a2;
+  @greenColor1: #ff4238;
+  @greenColor2: #fd3c41;
+  @greenColor3:#dc4735;
+  @grayColor1: #f6f6f6;
+  @grayColor2: #e7e7e7;
+  @grayColor3: #eee;
+  @grayColor4: #ccc;
+  @grayColor5: #e5e5e5;
+  @blackBgColor1: rgba(0,0,0,0.5);
+  @blackBgColor2: rgba(0,0,0,0.2);
+  @whiteBgColor1: rgba(255,255,255,0.85);
+  @blueBgColor1: #7800ff;
+  @blueBgColor2: #418DFF;
+  @blueBgColor3: rgba(91,169,255,0.7);
+  @pinkBgColor1: #ffe5e0;
+  @pinkBgColor2: #e76a78;
+  @pinkBgColor3: #f4d9ff;
+  @pinkBgColor4: #9C79D4;
+  @redColor1: #e75033;
+  #player {
+    width: 100%;
+    .p(100,20,140,20);
+    position:relative;
+
+    .playerName{
+      width:100%;
+      .f-s(30);
+      .p(15,0,15,0);
+      .border-b-dotted(1,@grayColor4);
+      display:block;
+      .mb(30);
+      position:absolute;
+      left:0;
+      top:0;
+    }
+
+    .tabNav {
+      width: 100%;
+      //background: @defaultColor;
+
+      .box {
+        color: @defaultColor;
+        .w(320);
+        .l-h(36);
+        .p(15,0,15,0);
+        .f-s(28);
+        .m(0,30,0,30);
+        background: @pinkBgColor4;
+        border:none;
+        .b-r(5);
+        border-left-width: 0;
+        border-right-width: 0;
+        .box-shadow(0,2,5,0,#ccc);
+        &:nth-child(1){
+          .ml(0);
+          float:left;
+        }
+        &:nth-child(3){
+          .mr(0);
+          float:right;
+        }
+        &:active {
+          opacity: 0.8;
+        }
+
+        span {
+          //background:url('../img/dataIcon.png') no-repeat left center;
+          //.pl(32);
+          //.bg-s(30,30);
+        }
+      }
+
+      .line {
+        .w(2);
+        .h(26);
+        .t(15);
+        //background: @grayColor4;
+      }
+    }
+
+    .dataTab {
+      width: 100%;
+      background: @grayColor1;
+      .m(15,0,15,0);
+
+      dl {
+        .w(176);
+        .p(12,0,12,0);
+        color: @textColor3;
+        .f-s(24);
+
+        dt {
+          .l-h(30);
+          .pb(5);
+        }
+
+        dd {
+          .l-h(26);
+          .f-s(22);
+        }
+      }
+
+      .line {
+        .w(2);
+        .h(52);
+        .t(14);
+        background: @grayColor4;
+      }
+    }
+
+    .tabShow {
+      width: 100%;
+      background: @defaultColor;
+      .box-shadow(0,1,5,0,#ccc);
+      .box {
+        .p(20,0,20,0);
+        .l-h(26);
+        .f-s(24);
+        color: @textColor3;
+        width: 50%;
+        //.border-b(2,@defaultColor);
+        background: @defaultColor;
+        &.choose {
+          color: @defaultColor;
+          //.border-b(2,@greenColor1);
+          background: @greenColor1;
+        }
+      }
+    }
+
+    .showTabWrap {
+      width: 100%;
+      .mt(20);
+
+      .showBox {
+        width: 100%;
+
+        .img {
+          width: 100%;
+          .mb(20);
+          animation: bounceIn 0.5s;
+          .border(10,@defaultColor);
+          .box-shadow(0,1,5,0,@grayColor4);
+        }
+
+        .sendList {
+          width: 100%;
+
+          .box {
+            width: 100%;
+            .m(20,0,20,0);
+            .p(0,20,0,0);
+            background: @defaultColor;
+            animation: bounceIn 0.5s;
+            .b-r(120);
+            .box-shadow(0,1,4,0,@grayColor4);
+            .sendImg {
+              .w(120);
+              .h(120);
+              border-radius: 50%;
+              .border(5,@grayColor4);
+            }
+
+            dl {
+              .ml(20);
+              .f-s(30);
+              .w(550);
+              .p(20,0,15,0);
+              dt {
+                color: @textColor3;
+                .l-h(34);
+                .p(6,0,6,0);
+
+                span.mark {
+                  background: @pinkBgColor1;
+                  color: @redColor1;
+                  .p(3,10,3,10);
+                  position: relative;
+                  .t(-3);
+                  .mr(10);
+                  .b-r(34);
+                  .l-h(34);
+                }
+              }
+
+              dd {
+                color: @textColor4;
+                .l-h(34);
+              }
+            }
+          }
+        }
+      }
+
+      .personalData {
+        .box {
+          width: 100%;
+          .m(0,0,20,0);
+          .p(20,20,20,20);
+          //background: @defaultColor;
+          animation: bounceIn 0.5s;
+
+          .myImg {
+            .w(300);
+            .h(300);
+            border-radius: 50%;
+            float:none;
+            margin:0 auto;
+            position: relative;
+            .t(50);
+            left:0;
+            z-index:2;
+            .border(20,@defaultColor)
+          }
+
+          dl {
+            //.ml(20);
+            background:@defaultColor;
+            .f-s(30);
+            float:none;
+            text-align: center;
+            .w(500);
+            margin:0 auto;
+            .p(55,20,30,20);
+            .box-shadow(0,3,5,0,#ccc);
+            .b-r(15);
+            dt {
+              color: @textColor3;
+              .l-h(34);
+              .p(6,0,6,0);
+              span.mark {
+                background: @pinkBgColor1;
+                color: @redColor1;
+                .p(3,10,3,10);
+                position: relative;
+                .t(-3);
+                .mr(10);
+                .b-r(34);
+                .l-h(34);
+              }
+            }
+
+            dd {
+              color: @textColor3;
+              .l-h(30);
+              .f-s(24);
+            }
+          }
+        }
+      }
+    }
+
+    #btnMore {
+      width: 100%;
+      .mt(10);
+      .mb(20);
+      .l-h(32);
+      .p(20,0,20,0);
+      .f-s(28);
+      color: @defaultColor;
+      background: @greenColor1;
+      .b-r(30);
+    }
+
+    .helpTicket {
+      width: 100%;
+      background-color: @blackBgColor1;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+      background-image: url('../img/helpTicket.png');
+      background-repeat: no-repeat;
+      background-position: right 10px;
+      background-size: 80% auto;
+    }
+  }
+
+  .footerPlayer {
+    width: 100%;
+    background: @defaultColor;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    .border-t(2,@grayColor5);
+
+    .box {
+      .p(65,0,10,0);
+      .w(247.5);
+      .f-s(26);
+      .l-h(28);
+      color: @textColor3;
+
+      &.home {
+        background: url('../img/homeIcon.png') no-repeat;
+        .bg-s(60,60);
+        .bg-x-c(6);
+      }
+
+      &.flower {
+        background: url('../img/flowerIcon.png') no-repeat;
+        .bg-s(50,50);
+        .bg-x-c(8);
+      }
+    }
+
+    .vote {
+      .w(255);
+      left: 50%;
+      .b(5);
+      .t-t(-127.5,0);
+      z-index: 2;
+      .h(124);
+
+      .btn {
+        .w(124);
+        .h(124);
+        background: @blueBgColor1;
+        border-radius: 50%;
+        margin: 0 auto;
+        .f-s(22);
+        .p(10,9,0,9);
+
+        dl {
+          .w(106);
+          .h(106);
+          border-radius: 50%;
+          background-color: @pinkBgColor3;
+          .border(5,@blueBgColor1);
+          animation: heartbborder 1s infinite linear;
+          dt {
+            width: 100%;
+            .h(54);
+            background-image: url('../img/heartIcon.png');
+            background-repeat: no-repeat;
+            .bg-s(40,40);
+            .bg-x-c(32);
+            background-position: center center;
+            animation: heartbeat 1s infinite linear;
+          }
+
+          dd {
+            .l-h(30);
+            .f-s(24);
+          }
+        }
+      }
+    }
+  }
+  @keyframes scaleImg {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.2);
+    }
+  }
+}
+@keyframes heartbborder{
+  0% {border:4px solid #b830f1;}
+	20% {border:3px solid #b830f1;}
+	40% {border:2px solid #b830f1;}
+	60% {border:3px solid #b830f1;}
+	80% {border:4px solid #b830f1;}
+	100% {border:3px solid #b830f1;}
+}
+@keyframes heartbeat{
+  0% {transform:scale(1);}
+	10% {transform:scale(0.95);}
+	20% {transform:scale(0.9);}
+	30% {transform:scale(0.95);}
+	40% {transform:scale(0.8);}
+	50% {transform:scale(0.85);}
+	60% {transform:scale(0.9);}
+	70% {transform:scale(0.95);}
+	80% {transform:scale(1);}
+	90% {transform:scale(0.95);}
+	100% {transform:scale(1);}
+}

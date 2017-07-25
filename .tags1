@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+title	I:\Ë½»î\praise\src\index.html	/^  <title>home<\/title>$/;"	function	line:2
+link	I:\Ë½»î\praise\src\index.html	/^  <link type='text\/css' rel='stylesheet' href='public\/swiper\/css\/swiper.min.css'>$/;"	function	line:3
+link	I:\Ë½»î\praise\src\index.html	/^  <link type='text\/css' rel='stylesheet' href='.\/css\/index.css'>$/;"	function	line:4
+body	I:\Ë½»î\praise\src\index.html	/^<body style='background:#f6f6f6;'>$/;"	function	line:6
+div	I:\Ë½»î\praise\src\index.html	/^<div id='home'>$/;"	function	line:7
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='searchBox p-f d-b'>$/;"	function	line:9
+input	I:\Ë½»î\praise\src\index.html	/^    <input type="text" class='d-b f-l' placeholder="è¯·è¾“å…¥ç¼–å·æˆ–æ˜µç§°">$/;"	function	line:10
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="btn d-b f-r"><\/div>$/;"	function	line:11
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='banner'>$/;"	function	line:14
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="swiper-container">$/;"	function	line:15
+div	I:\Ë½»î\praise\src\index.html	/^      <div class="swiper-wrapper">$/;"	function	line:16
+div	I:\Ë½»î\praise\src\index.html	/^        <div class="swiper-slide">$/;"	function	line:17
+a	I:\Ë½»î\praise\src\index.html	/^          <a href='#'>$/;"	function	line:18
+img	I:\Ë½»î\praise\src\index.html	/^            <img class='d-b' src='img\/banner2.jpg'>$/;"	function	line:19
+div	I:\Ë½»î\praise\src\index.html	/^        <div class="swiper-slide">$/;"	function	line:22
+a	I:\Ë½»î\praise\src\index.html	/^          <a href='#'>$/;"	function	line:23
+img	I:\Ë½»î\praise\src\index.html	/^            <img class='d-b' src='img\/banner1.jpg'>$/;"	function	line:24
+div	I:\Ë½»î\praise\src\index.html	/^        <div class="swiper-slide">$/;"	function	line:27
+a	I:\Ë½»î\praise\src\index.html	/^          <a href='#'>$/;"	function	line:28
+img	I:\Ë½»î\praise\src\index.html	/^            <img class='d-b' src='img\/banner3.jpg'>$/;"	function	line:29
+div	I:\Ë½»î\praise\src\index.html	/^      <div class="swiper-pagination"><\/div>$/;"	function	line:33
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='applyBox d-b clear'>$/;"	function	line:37
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="timeOutText f-l d-ib">è·ç¦»ç»“æŸï¼š<span class='days'><\/span><span class='hours'><\/span><span class='minutes'><\/span><span class='seconds'><\/span><\/div>$/;"	function	line:38
+a	I:\Ë½»î\praise\src\index.html	/^    <a class='btn green d-b f-r' href='apply.html'>æˆ‘è¦æŠ¥å<\/a>$/;"	function	line:39
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='dataTab clear'>$/;"	function	line:42
+dl	I:\Ë½»î\praise\src\index.html	/^    <dl class='f-l ta-c'>$/;"	function	line:43
+dt	I:\Ë½»î\praise\src\index.html	/^      <dt>å·²æŠ¥å<\/dt>$/;"	function	line:44
+dd	I:\Ë½»î\praise\src\index.html	/^      <dd>100<\/dd>$/;"	function	line:45
+span	I:\Ë½»î\praise\src\index.html	/^    <span class='line p-r f-l d-b'><\/span>$/;"	function	line:47
+dl	I:\Ë½»î\praise\src\index.html	/^    <dl class='f-l ta-c'>$/;"	function	line:48
+dt	I:\Ë½»î\praise\src\index.html	/^      <dt>æŠ•ç¥¨äººæ•°<\/dt>$/;"	function	line:49
+dd	I:\Ë½»î\praise\src\index.html	/^      <dd>14532<\/dd>$/;"	function	line:50
+span	I:\Ë½»î\praise\src\index.html	/^    <span class='line p-r f-l d-b'><\/span>$/;"	function	line:52
+dl	I:\Ë½»î\praise\src\index.html	/^    <dl class='f-l ta-c'>$/;"	function	line:53
+dt	I:\Ë½»î\praise\src\index.html	/^      <dt>è®¿é—®é‡<\/dt>$/;"	function	line:54
+dd	I:\Ë½»î\praise\src\index.html	/^      <dd>56528<\/dd>$/;"	function	line:55
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='tabNav clear'>$/;"	function	line:59
+a	I:\Ë½»î\praise\src\index.html	/^    <a class='box d-b f-l ta-c' href='#'><span>äººæ°”æ¦œ<\/span><\/a>$/;"	function	line:60
+div	I:\Ë½»î\praise\src\index.html	/^    <div class='line d-b f-l p-r'><\/div>$/;"	function	line:61
+a	I:\Ë½»î\praise\src\index.html	/^    <a class='box d-b f-l ta-c' href='#'><span>é²œèŠ±æ¦œ<\/span><\/a>$/;"	function	line:62
+div	I:\Ë½»î\praise\src\index.html	/^  <div id='container' class='listWrap p-r'>$/;"	function	line:65
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:66
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:67
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img1.jpg'>$/;"	function	line:68
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:69
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:70
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:71
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:72
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:76
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:77
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img2.jpg'>$/;"	function	line:78
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:79
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:80
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:81
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:82
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:86
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:87
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img3.jpg'>$/;"	function	line:88
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:89
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:90
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:91
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:92
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:96
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:97
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img4.jpg'>$/;"	function	line:98
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:99
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:100
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:101
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:102
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:106
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:107
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img5.jpg'>$/;"	function	line:108
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:109
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:110
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:111
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:112
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:116
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:117
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img6.jpg'>$/;"	function	line:118
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:119
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:120
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:121
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:122
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:126
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:127
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img7.jpg'>$/;"	function	line:128
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:129
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:130
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:131
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:132
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:136
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:137
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img6.jpg'>$/;"	function	line:138
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:139
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:140
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:141
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:142
+div	I:\Ë½»î\praise\src\index.html	/^    <div class="box">$/;"	function	line:146
+div	I:\Ë½»î\praise\src\index.html	/^      <div class='boxMain p-r'>$/;"	function	line:147
+img	I:\Ë½»î\praise\src\index.html	/^        <img class='d-b' src='img\/img7.jpg'>$/;"	function	line:148
+span	I:\Ë½»î\praise\src\index.html	/^        <span class='numId d-b p-a'>1000å·<\/span>$/;"	function	line:149
+div	I:\Ë½»î\praise\src\index.html	/^        <div class='textBox clear'>$/;"	function	line:150
+div	I:\Ë½»î\praise\src\index.html	/^          <div class="name d-b f-l">æŸæŸæŸ 70ç¥¨<\/div>$/;"	function	line:151
+a	I:\Ë½»î\praise\src\index.html	/^          <a class='btn d-b f-r' href='player.html'>ç»™ä»–æŠ•ç¥¨<\/a>$/;"	function	line:152
+p	I:\Ë½»î\praise\src\index.html	/^  <p id='btnMore' class='d-b ta-c'>ç‚¹å‡»åŠ è½½<\/p>$/;"	function	line:158
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='titleRow introduce d-b'>æ´»åŠ¨ä»‹ç»<\/div>$/;"	function	line:160
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='introduceBox'>$/;"	function	line:162
+img	I:\Ë½»î\praise\src\index.html	/^    <img class='img d-b' src='img\/introduceImg1.jpg'>$/;"	function	line:163
+p	I:\Ë½»î\praise\src\index.html	/^    <p class='color1 d-ib'>å¥–å“å¥–é¡¹:ï¼ˆå‡¡æŠ•ç¥¨æ»¡40ç¥¨å¯é¢†å–å‚ä¸å¥–ä¸€ä¸ªï¼‰<\/p>$/;"	function	line:164
+p	I:\Ë½»î\praise\src\index.html	/^    <p class='color2 d-ib'>ç¬¬ä¸€å:æ­¥æ­¥é«˜ç‚¹è¯»æœºä¸€å°+è¯ä¹¦<\/p>$/;"	function	line:165
+img	I:\Ë½»î\praise\src\index.html	/^    <img class='img d-b' src='img\/introduceImg2.jpg'>$/;"	function	line:166
+p	I:\Ë½»î\praise\src\index.html	/^    <p class='color2 d-ib'>ç¬¬äºŒå:æ™ºèƒ½ç”µé£æ‰‡ä¸€å°+è¯ä¹¦<\/p>$/;"	function	line:167
+img	I:\Ë½»î\praise\src\index.html	/^    <img class='img d-b' src='img\/introduceImg3.jpg'>$/;"	function	line:168
+p	I:\Ë½»î\praise\src\index.html	/^    <p class='color2 d-ib'>ç¬¬ä¸‰å:æŠ—èŒåŠ æ¹¿å™¨ä¸€å°+è¯ä¹¦<\/p>$/;"	function	line:169
+img	I:\Ë½»î\praise\src\index.html	/^    <img class='img d-b' src='img\/introduceImg4.jpg'>$/;"	function	line:170
+p	I:\Ë½»î\praise\src\index.html	/^    <p class='color2 d-ib'>å‚ä¸å¥–:ä¸œé£é“åœºè¿åŠ¨æ‰‹ç¯ä¸€ä¸ª<\/p>$/;"	function	line:171
+div	I:\Ë½»î\praise\src\index.html	/^  <div id='footer' class="footer d-b p-f clear">$/;"	function	line:174
+a	I:\Ë½»î\praise\src\index.html	/^    <a href="" class="box home linkThis d-b f-l ta-c">$/;"	function	line:175
+a	I:\Ë½»î\praise\src\index.html	/^    <a href="" class="box introduce d-b f-l ta-c">$/;"	function	line:178
+a	I:\Ë½»î\praise\src\index.html	/^    <a href="" class="box act d-b f-l ta-c">$/;"	function	line:181
+a	I:\Ë½»î\praise\src\index.html	/^    <a href="" class="box gift d-b f-l ta-c">$/;"	function	line:184
+div	I:\Ë½»î\praise\src\index.html	/^  <div class="loader p-f d-b" data-text><\/div>$/;"	function	line:189
+div	I:\Ë½»î\praise\src\index.html	/^<div class='popupBox nd-b p-f'>$/;"	function	line:193
+div	I:\Ë½»î\praise\src\index.html	/^  <div class='popupWrap nd-b p-a'>$/;"	function	line:194
+div	I:\Ë½»î\praise\src\index.html	/^    <div class='stateIcon success d-b'><\/div>$/;"	function	line:195
+div	I:\Ë½»î\praise\src\index.html	/^    <div class='stateIcon error nd-b'><\/div>$/;"	function	line:196
+p	I:\Ë½»î\praise\src\index.html	/^    <p class='ta-c'>æŠ•ç¥¨æˆåŠŸï¼Œæ‚¨è¿˜å¯ä»¥æŠ•0ç¥¨.<\/p>$/;"	function	line:197
+div	I:\Ë½»î\praise\src\index.html	/^    <div class='btn d-b ta-c'>çŸ¥é“äº†<\/div>$/;"	function	line:198
+script	I:\Ë½»î\praise\src\index.html	/^<script src='public\/swiper\/js\/swiper.min.js'><\/script>$/;"	function	line:203
+script	I:\Ë½»î\praise\src\index.html	/^<script src='public\/countDown\/jquery.downCount.js'><\/script>$/;"	function	line:204
+script	I:\Ë½»î\praise\src\index.html	/^<script src='js\/index.js'><\/script>$/;"	function	line:206
+script	I:\Ë½»î\praise\src\index.html	/^<script>$/;"	function	line:207

@@ -1,0 +1,372 @@
+.module1 {
+  @defaultColor: #fff;
+  @textColor1: #2c2c2c;
+  @textColor2: #333333;
+  @textColor3: #666;
+  @textColor4: #a3a2a2;
+  @greenColor1: #44b549;
+  @greenColor2: #80e284;
+  @greenColor3: #328535;
+  @grayColor1: #f6f6f6;
+  @grayColor2: #e7e7e7;
+  @grayColor3: #eee;
+  @grayColor4: #ccc;
+  @grayColor5: #e5e5e5;
+  @blackBgColor1: rgba(0,0,0,0.5);
+  @blackBgColor2: rgba(0,0,0,0.2);
+  @whiteBgColor1: rgba(255,255,255,0.75);
+  @blueBgColor1: #337fe5;
+  @blueBgColor2: #4798c2;
+  @pinkBgColor1: #ffe5e0;
+  @pinkBgColor2: #e76a78;
+  @redColor1: #e75033;
+
+  .apply {
+    .p(20,20,120,20);
+
+    .applyBox {
+      background: @defaultColor;
+      width: 100%;
+      .p(0,10,10,10);
+
+      .title {
+        width: 100%;
+        .p(15,0,15,0);
+        color: @textColor3;
+        .l-h(30);
+        .f-s(24);
+        .border-b(1,@grayColor4);
+      }
+
+      #div_imglook {
+        .p(20,0,20,0);
+        .mt(0);
+        width: 100%;
+        background: @defaultColor;
+        .border-b(1,@grayColor4);
+
+        #div_imgfile {
+          .w(100);
+          .h(100);
+          .border(1,@grayColor4);
+          .l-h(105);
+          .f-s(45);
+          font-weight: 100;
+          float: left;
+          color: @textColor3;
+
+          &:hover {
+            background: @defaultColor;
+          }
+        }
+
+        .lookimg {
+          .w(100);
+          .h(100);
+          .border(1,@textColor3);
+          .mr(25);
+        }
+
+        .lookimg_delBtn {
+          left: auto;
+          .t(-15);
+          .r(-15);
+          .w(30);
+          .h(32);
+          opacity: 1;
+          display: block;
+          border-radius: 50%;
+          background-color: @redColor1;
+          background-image: url('../img/closeIcon.png');
+          background-position: center center;
+          .bg-s(20,20);
+          background-repeat: no-repeat;
+          font-size: 0;
+        }
+      }
+
+      .sexBox {
+        .p(20,0,20,0);
+        width: 100%;
+        .border-b(1,@grayColor4);
+
+        .text {
+          .l-h(70);
+          color: @textColor3;
+          .f-s(24);
+          .mr(20);
+        }
+
+        .sexWrap {
+          .h(70);
+
+          .checkbox {
+            .w(70);
+            .h(70);
+            .mr(20);
+            .b-r(8);
+            background-color: @textColor4;
+
+            &.boy {
+              background-image: url('../img/boy.png');
+              background-repeat: no-repeat;
+              background-position: center center;
+              .bg-s(40,40);
+
+              &.choose {
+                background-color: @blueBgColor2;
+              }
+            }
+
+            &.girl {
+              background-image: url('../img/girl.png');
+              background-repeat: no-repeat;
+              background-position: center center;
+              .bg-s(40,40);
+
+              &.choose {
+                background-color: @pinkBgColor2;
+              }
+            }
+          }
+        }
+      }
+
+      .textBox {
+        .p(20,0,20,0);
+        width: 100%;
+        .border-b(1,@grayColor4);
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+
+        .text {
+          .l-h(30);
+          color: @textColor3;
+          .f-s(24);
+          .mr(10);
+          .p(10,0,10,0);
+        }
+
+        input {
+          .w(550);
+          .h(50);
+          border: none;
+          .p(0,20,0,20);
+          .f-s(24);
+          .l-h(50);
+          color: @textColor3;
+        }
+
+        textarea {
+          .w(550);
+          .h(250);
+          border: none;
+          .p(10,20,10,25);
+          .f-s(24);
+          .l-h(30);
+          color: @textColor3;
+        }
+      }
+    }
+
+    #btn_ImgUpStart {
+      width: 100%;
+      .mt(20);
+      .f-s(28);
+      .p(20,0,20,0);
+      background: @greenColor1;
+      color: @defaultColor;
+      height: auto;
+
+    }
+  }
+}
+
+.module2 {
+  @defaultColor: #fff;
+  @textColor1: #2c2c2c;
+  @textColor2: #333333;
+  @textColor3: #666;
+  @textColor4: #a3a2a2;
+  @greenColor1: #ff4238;
+  @greenColor2: #fd3c41;
+  @greenColor3:#dc4735;
+  @grayColor1: #f6f6f6;
+  @grayColor2: #e7e7e7;
+  @grayColor3: #eee;
+  @grayColor4: #ccc;
+  @grayColor5: #e5e5e5;
+  @blackBgColor1: rgba(0,0,0,0.5);
+  @blackBgColor2: rgba(0,0,0,0.2);
+  @whiteBgColor1: rgba(255,255,255,0.85);
+  @blueBgColor1: #7800ff;
+  @blueBgColor2: #418DFF;
+  @blueBgColor3: rgba(91,169,255,0.7);
+  @pinkBgColor1: #ffe5e0;
+  @pinkBgColor2: #e76a78;
+  @redColor1: #e75033;
+
+  .apply {
+    .p(20,20,120,20);
+
+    .applyBox {
+      background: @defaultColor;
+      width: 100%;
+      .p(0,10,10,10);
+
+      .title {
+        width: 100%;
+        .p(15,0,15,0);
+        color: @textColor3;
+        .l-h(30);
+        .f-s(24);
+        .border-b(1,@grayColor4);
+      }
+
+      #div_imglook {
+        .p(20,0,20,0);
+        .mt(0);
+        width: 100%;
+        background: @defaultColor;
+        .border-b(1,@grayColor4);
+
+        #div_imgfile {
+          .w(100);
+          .h(100);
+          .border(1,@grayColor4);
+          .l-h(105);
+          .f-s(45);
+          font-weight: 100;
+          float: left;
+          color: @textColor3;
+
+          &:hover {
+            background: @defaultColor;
+          }
+        }
+
+        .lookimg {
+          .w(100);
+          .h(100);
+          .border(1,@textColor3);
+          .mr(25);
+        }
+
+        .lookimg_delBtn {
+          left: auto;
+          .t(-15);
+          .r(-15);
+          .w(30);
+          .h(32);
+          opacity: 1;
+          display: block;
+          border-radius: 50%;
+          background-color: @redColor1;
+          background-image: url('../img/closeIcon.png');
+          background-position: center center;
+          .bg-s(20,20);
+          background-repeat: no-repeat;
+          font-size: 0;
+        }
+      }
+
+      .sexBox {
+        .p(20,0,20,0);
+        width: 100%;
+        .border-b(1,@grayColor4);
+
+        .text {
+          .l-h(70);
+          color: @textColor3;
+          .f-s(24);
+          .mr(20);
+        }
+
+        .sexWrap {
+          .h(70);
+
+          .checkbox {
+            .w(70);
+            .h(70);
+            .mr(20);
+            .b-r(8);
+            background-color: @textColor4;
+
+            &.boy {
+              background-image: url('../img/boy.png');
+              background-repeat: no-repeat;
+              background-position: center center;
+              .bg-s(40,40);
+
+              &.choose {
+                background-color: @blueBgColor2;
+              }
+            }
+
+            &.girl {
+              background-image: url('../img/girl.png');
+              background-repeat: no-repeat;
+              background-position: center center;
+              .bg-s(40,40);
+
+              &.choose {
+                background-color: @pinkBgColor2;
+              }
+            }
+          }
+        }
+      }
+
+      .textBox {
+        .p(20,0,20,0);
+        width: 100%;
+        .border-b(1,@grayColor4);
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+
+        .text {
+          .l-h(30);
+          color: @textColor3;
+          .f-s(24);
+          .mr(10);
+          .p(10,0,10,0);
+        }
+
+        input {
+          .w(550);
+          .h(50);
+          border: none;
+          .p(0,20,0,20);
+          .f-s(24);
+          .l-h(50);
+          color: @textColor3;
+        }
+
+        textarea {
+          .w(550);
+          .h(250);
+          border: none;
+          .p(10,20,10,25);
+          .f-s(24);
+          .l-h(30);
+          color: @textColor3;
+        }
+      }
+    }
+
+    #btn_ImgUpStart {
+      width: 100%;
+      .mt(20);
+      .f-s(32);
+      .p(20,0,20,0);
+      background: @greenColor1;
+      color: @defaultColor;
+      height: auto;
+      .b-r(0);
+    }
+  }
+}
